@@ -1,0 +1,58 @@
+{% load static %}
+
+
+<section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>Selected projects</h2>
+        <span>3 of many</span>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <a href="#" class="project-card" style="grid-column: 1 / -1;">
+          <div class="img-wrap">
+            <img src=" {% static 'img/taskflow.png' %} " alt="TaskFlow API" loading="lazy" width="1024" height="512">
+          </div>
+          <svg class="link-icon icon-external-link" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          <div class="body">
+            <div class="tag">Django REST Framework</div>
+            <h3>TaskFlow API</h3>
+            <p class="desc">A task management API with JWT auth, role-based permissions, and PostgreSQL. Documented with OpenAPI and deployed via Docker.</p>
+            <div class="stack">
+              <span>Python</span><span>Django</span><span>DRF</span><span>Postgres</span>
+            </div>
+          </div>
+        </a>
+        <!-- Project 2 -->
+        <a href="#" class="project-card">
+          <div class="img-wrap">
+            <img src=" {% static 'img/pulse.png' %} " alt="Pulse Dashboard" loading="lazy" width="1024" height="512">
+          </div>
+          <svg class="link-icon icon-external-link" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          <div class="body">
+            <div class="tag">React + TypeScript</div>
+            <h3>Pulse Dashboard</h3>
+            <p class="desc">Analytics dashboard with realtime charts, dark mode, and a component library. Fully responsive and accessible.</p>
+            <div class="stack">
+              <span>React</span><span>TypeScript</span><span>Tailwind</span><span>Recharts</span>
+            </div>
+          </div>
+        </a>
+        <!-- Project 3 -->
+        <a href="#" class="project-card">
+          <div class="img-wrap">
+            <img src=" {% static 'img/devjournal.png' %} " alt="DevJournal" loading="lazy" width="1024" height="512">
+          </div>
+          <svg class="link-icon icon-external-link" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          <div class="body">
+            <div class="tag">Full-stack</div>
+            <h3>DevJournal</h3>
+            <p class="desc">A markdown-first journal for developers. Django backend, React frontend, with tags, search, and code highlighting.</p>
+            <div class="stack">
+              <span>Django</span><span>React</span><span>Postgres</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>

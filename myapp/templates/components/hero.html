@@ -1,0 +1,27 @@
+{% load static %}
+
+
+<section id="top" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="badge">
+            <span class="ping-dot"></span>
+            Available for junior roles & internships
+          </div>
+          <h1>Hi, I'm Jehad Hasan —<br>a <span class="text-gradient">junior software engineer</span> who loves shipping.</h1>
+          <p>I build clean, well-tested web apps with <strong>Python</strong>, <strong>Django</strong>, and <strong>React</strong>. Currently sharpening my skills on side projects and open source.</p>
+          <div class="btn-group">
+            <a href="/projects" class="btn btn-primary">
+              View my work
+              <svg class="icon-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/contact" class="btn btn-secondary">Get in touch</a>
+          </div>
+        </div>
+       <div class="hidden-lg">
+            <img src=" {% static 'img/hero_img.png' %} " alt="Developer illustration" class="hero-img" width="1024" height="768">
+        </div>
+      </div>
+    </div>
+  </section>
