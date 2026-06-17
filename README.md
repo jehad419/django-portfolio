@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python manage.py runserver
 
 Live Demo:
-Coming Soon
+https://jehads-portfolio.onrender.com/
 
 Author:
 Md. Jehad Hasan
